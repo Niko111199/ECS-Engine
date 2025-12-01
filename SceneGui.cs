@@ -659,13 +659,15 @@ namespace Graphics
                                     light.OuterCutoff = MathHelper.DegreesToRadians(outer);
                             }
 
-                            //ImGui.Text("Depth Map");
-                            //ImGui.Image(
-                            //    new IntPtr(owner.shadowMap.DepthTexture),
-                            //    new System.Numerics.Vector2(256, 256),
-                            //    new System.Numerics.Vector2(0, 1),
-                            //    new System.Numerics.Vector2(1, 0)
-                            //);
+                            ImGui.Text("Depth Map");
+                            ImGui.Image(
+                                new IntPtr(owner.shadowMap.DepthTexture),
+                                new System.Numerics.Vector2(256, 256),
+                                new System.Numerics.Vector2(0, 1),
+                                new System.Numerics.Vector2(1, 0)
+                            );
+
+                           ImGui.DragFloat("lightBias",ref owner.shadowMap.bias, 0.0001f);
                         }
 
                         if (comp is CameraComponent camera)

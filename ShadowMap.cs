@@ -1,10 +1,13 @@
-﻿using OpenTK.Graphics.OpenGL4;
+﻿using Graphics;
+using OpenTK.Graphics.OpenGL4;
 
 public class ShadowMap
 {
     public int FBO;
     public int DepthTexture;
     public int Width, Height;
+    public Shader shadowShader;
+    public float bias;
 
     public ShadowMap(int width, int height)
     {
@@ -19,8 +22,8 @@ public class ShadowMap
         GL.TexImage2D(TextureTarget.Texture2D, 0, PixelInternalFormat.DepthComponent,
                       width, height, 0, PixelFormat.DepthComponent, PixelType.Float, IntPtr.Zero);
 
-        GL.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureMinFilter, (int)TextureMinFilter.Nearest);
-        GL.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureMagFilter, (int)TextureMagFilter.Nearest);
+        GL.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureMinFilter, (int)TextureMinFilter.Linear);
+        GL.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureMagFilter, (int)TextureMagFilter.Linear);
         GL.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureWrapS, (int)TextureWrapMode.ClampToBorder);
         GL.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureWrapT, (int)TextureWrapMode.ClampToBorder);
 
@@ -39,6 +42,10 @@ public class ShadowMap
             throw new Exception($"Shadow framebuffer ikke komplet: {status}");
 
         GL.BindFramebuffer(FramebufferTarget.Framebuffer, 0);
+
+        shadowShader = new Shader(ShadowVertex(), ShadowFragment());
+
+        bias = 0.0005f;
     }
 
     public void Bind()
@@ -52,5 +59,32 @@ public class ShadowMap
     {
         GL.BindFramebuffer(FramebufferTarget.Framebuffer, 0);
         GL.Viewport(0, 0, screenWidth, screenHeight);
+    }
+
+    public string ShadowVertex()
+    {
+        return @"
+#version 330 core
+layout(location = 0) in vec3 aPos;
+
+uniform mat4 model;
+uniform mat4 lightSpaceMatrix;
+
+void main()
+{
+    gl_Position = lightSpaceMatrix * model * vec4(aPos, 1.0);
+}
+";
+    }
+
+    public string ShadowFragment()
+    {
+        return @"
+#version 330 core
+void main()
+{
+
+}
+";
     }
 }

@@ -22,7 +22,6 @@ namespace Graphics
 
         public string Name => "Light";
     }
-
         public enum LightType
         {
             Directional,

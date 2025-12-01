@@ -165,7 +165,9 @@ uniform vec3 viewPos;
 uniform float range;
 uniform float innerCutoff;
 uniform float outerCutoff;
-
+uniform sampler2D shadowMap;
+uniform mat4 lightSpaceMatrix; 
+uniform float bias;
 ";
             }
 
@@ -177,6 +179,38 @@ uniform float outerCutoff;
                 header += "uniform sampler2D Normalmap;\n\r";
             if (GetComponent<LightMapComponent>() != null)
                 header += "uniform sampler2D Lightmap;\n\r";
+
+            if (hasLight)
+            {
+                header += @"
+float CalculateShadow(vec4 fragPosLightSpace)
+{
+    vec3 projCoords = fragPosLightSpace.xyz / fragPosLightSpace.w;
+    projCoords = projCoords * 0.5 + 0.5;
+
+    if (projCoords.z > 1.0)
+        return 0.0;
+
+    float currentDepth = projCoords.z;
+
+
+    float shadow = 0.0;
+    vec2 texelSize = 1.0 / textureSize(shadowMap, 0);
+    for(int x = -1; x <= 1; ++x)
+    {
+        for(int y = -1; y <= 1; ++y)
+        {
+            float pcfDepth = texture(shadowMap, projCoords.xy + vec2(x, y) * texelSize).r;
+            shadow += currentDepth - bias > pcfDepth ? 1.0 : 0.0;
+        }
+    }
+    shadow /= 9.0;
+
+    return shadow;
+}
+
+";
+            }
 
             string main = @"
 void main()
@@ -212,8 +246,10 @@ void main()
     vec4 baseLit = baseColor;
 
     vec3 toLight = normalize(lightPos - FragPos);
+    vec4 fragPosLightSpace = lightSpaceMatrix * vec4(FragPos, 1.0);
+    float shadow = CalculateShadow(fragPosLightSpace);
     float diff = max(dot(norm, toLight), 0.0);
-    vec3 diffuse = diff * lightColor * lightIntensity;
+    vec3 diffuse = (1.0 - shadow) * diff * lightColor * lightIntensity;
 
     vec3 resultColor = (ambientLight + diffuse) * baseLit.rgb;
     resultFinal = vec4(resultColor, baseLit.a);

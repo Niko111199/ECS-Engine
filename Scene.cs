@@ -18,6 +18,8 @@ namespace Graphics
         public FrameBuffer frameBuffer;
         public PostProcessor postProcessor;
 
+        public ShadowMap shadowMap;
+
         public List<Entity> Entities { get; } = new List<Entity>();
 
         public Scene(ImGuiController controller, Window window)
@@ -31,6 +33,8 @@ namespace Graphics
 
             frameBuffer = new FrameBuffer(window.width, window.height);
             postProcessor = new PostProcessor(window.width, window.height,this);
+
+            shadowMap = new ShadowMap(2048, 2048);
         }
 
         public void updateCameraMovement()
@@ -40,20 +44,74 @@ namespace Graphics
 
         public void Render(float deltaTime)
         {
-            frameBuffer.Bind();
             cameraMovement.Update(deltaTime);
+
+            var lightEntity = Entities.FirstOrDefault(e => e.GetComponent<LightComponent>() != null);
+            Matrix4 lightSpaceMatrix = Matrix4.Identity;
+
+            if (lightEntity != null)
+            {
+                var lightTrans = lightEntity.GetComponent<TransformComponent>();
+                if (lightTrans == null)
+                {
+                    lightTrans = new TransformComponent(lightEntity);
+                    lightEntity.AddComponent(lightTrans);
+                }
+                Vector3 lightPos = lightTrans.Position;
+                Vector3 lightTarget = lightTrans.Forward;
+
+                Matrix4 lightView = Matrix4.LookAt(lightPos, lightTarget, Vector3.UnitY);
+
+                float orthoSize = 30f;
+                float near = 1f;
+                float far = 150f;
+
+                Matrix4 lightProj = Matrix4.CreateOrthographicOffCenter(
+                    -orthoSize, orthoSize,
+                    -orthoSize, orthoSize,
+                    near, far
+                );
+
+                lightSpaceMatrix = lightProj * lightView;
+            }
+
+            shadowMap.Bind();
+            GL.Clear(ClearBufferMask.DepthBufferBit);
+            GL.Enable(EnableCap.DepthTest);
+            GL.Enable(EnableCap.CullFace);
+            GL.CullFace(TriangleFace.Front);
+
+            shadowMap.shadowShader.Use();
+            shadowMap.shadowShader.setMat4("lightSpaceMatrix", lightSpaceMatrix);
+
+            foreach (var entity in Entities)
+            {
+                var mesh = entity.GetComponent<MeshComponent>();
+                if (mesh == null) continue;
+
+                var transform = entity.GetComponent<TransformComponent>();
+                Matrix4 model = transform != null ? transform.GetWorldMatrix() : Matrix4.Identity;
+
+                shadowMap.shadowShader.setMat4("model", model);
+                mesh.Draw();
+            }
+
+            shadowMap.Unbind(window.width, window.height);
+
+            frameBuffer.Bind();
 
             GL.ClearColor(backGroundColor);
             GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
-
             GL.Enable(EnableCap.DepthTest);
-            GL.Enable(EnableCap.CullFace);
             GL.CullFace(TriangleFace.Back);
             GL.Enable(EnableCap.Blend);
             GL.BlendFunc(BlendingFactor.SrcAlpha, BlendingFactor.OneMinusSrcAlpha);
 
             Matrix4 view = activeCamera.GetViewMatrix();
             Matrix4 projection = activeCamera.GetProjectionMatrix();
+
+            GL.ActiveTexture(TextureUnit.Texture5);
+            GL.BindTexture(TextureTarget.Texture2D, shadowMap.DepthTexture);
 
             var skyboxEntity = Entities.FirstOrDefault(e => e.GetComponent<SkyboxComponent>() != null);
             if (skyboxEntity != null)
@@ -64,6 +122,7 @@ namespace Graphics
 
             foreach (var entity in Entities)
             {
+
                 entity.shader.Use();
 
                 var transform = entity.GetComponent<TransformComponent>();
@@ -135,7 +194,6 @@ namespace Graphics
                     entity.shader.setFloat("amplitude", animateComp.Amplitude);
                 }
 
-                var lightEntity = Entities.FirstOrDefault(e => e.GetComponent<LightComponent>() != null);
                 if (lightEntity != null)
                 {
                     var lightComp = lightEntity.GetComponent<LightComponent>();
@@ -147,6 +205,10 @@ namespace Graphics
                     entity.shader.setFloat("lightIntensity", lightComp.Intensity);
                     entity.shader.setVec3("viewPos", activeCamera.Position);
                     entity.shader.setFloat("ambientLight", ambientLight);
+
+                    entity.shader.setMat4("lightSpaceMatrix", lightSpaceMatrix);
+                    entity.shader.setInt("shadowMap", 5);
+                    entity.shader.setFloat("bias", shadowMap.bias);
 
                     if (lightComp.Type == LightType.Point)
                         entity.shader.setFloat("range", lightComp.Range);

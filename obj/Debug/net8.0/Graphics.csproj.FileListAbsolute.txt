@@ -233,3 +233,4 @@ C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\obj\Debug\net8.0\refint\Graphics.
 C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\obj\Debug\net8.0\Graphics.pdb
 C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\obj\Debug\net8.0\Graphics.genruntimeconfig.cache
 C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\obj\Debug\net8.0\ref\Graphics.dll
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\obj\Debug\net8.0\Graphics.sourcelink.json
