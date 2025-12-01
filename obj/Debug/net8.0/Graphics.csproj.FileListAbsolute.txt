@@ -1,0 +1,235 @@
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\obj\Debug\net8.0\Graphics.csproj.AssemblyReference.cache
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\obj\Debug\net8.0\Graphics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\obj\Debug\net8.0\Graphics.AssemblyInfoInputs.cache
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\obj\Debug\net8.0\Graphics.AssemblyInfo.cs
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\obj\Debug\net8.0\Graphics.csproj.CoreCompileInputs.cache
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\bin\Debug\net8.0\Graphics.exe
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\bin\Debug\net8.0\Graphics.deps.json
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\bin\Debug\net8.0\Graphics.runtimeconfig.json
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\bin\Debug\net8.0\Graphics.dll
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\bin\Debug\net8.0\Graphics.pdb
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\bin\Debug\net8.0\ImGui.NET.dll
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\bin\Debug\net8.0\OpenTK.Audio.OpenAL.dll
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\bin\Debug\net8.0\OpenTK.Compute.dll
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\bin\Debug\net8.0\OpenTK.Core.dll
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\bin\Debug\net8.0\OpenTK.Graphics.dll
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\bin\Debug\net8.0\OpenTK.Input.dll
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\bin\Debug\net8.0\OpenTK.Mathematics.dll
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\bin\Debug\net8.0\OpenTK.Windowing.Common.dll
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\bin\Debug\net8.0\OpenTK.Windowing.Desktop.dll
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\bin\Debug\net8.0\OpenTK.Windowing.GraphicsLibraryFramework.dll
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\bin\Debug\net8.0\runtimes\linux-x64\native\libcimgui.so
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\bin\Debug\net8.0\runtimes\osx\native\libcimgui.dylib
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\bin\Debug\net8.0\runtimes\win-arm64\native\cimgui.dll
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\bin\Debug\net8.0\runtimes\win-x64\native\cimgui.dll
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\bin\Debug\net8.0\runtimes\win-x86\native\cimgui.dll
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\bin\Debug\net8.0\runtimes\linux-x64\native\libglfw.so.3
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\bin\Debug\net8.0\runtimes\osx-arm64\native\libglfw.3.dylib
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\bin\Debug\net8.0\runtimes\osx-x64\native\libglfw.3.dylib
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\bin\Debug\net8.0\runtimes\win-x64\native\glfw3.dll
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\bin\Debug\net8.0\runtimes\win-x86\native\glfw3.dll
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\obj\Debug\net8.0\Graphics.csproj.Up2Date
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\obj\Debug\net8.0\Graphics.dll
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\obj\Debug\net8.0\refint\Graphics.dll
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\obj\Debug\net8.0\Graphics.pdb
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\obj\Debug\net8.0\Graphics.genruntimeconfig.cache
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\obj\Debug\net8.0\ref\Graphics.dll
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\bin\Debug\net8.0\shader.frag
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\bin\Debug\net8.0\Shader.vert
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\bin\Debug\net8.0\StbImageSharp.dll
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\bin\Debug\net8.0\Textures\container.jpg
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\obj\Debug\net8.0\Graphics.sourcelink.json
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\bin\Debug\net8.0\shaderLight.frag
+C:\Users\niko1\Desktop\GameEngine\c#\Graphics\bin\Debug\net8.0\ShaderLight.vert
+C:\Users\niko1\Desktop\Grafik projekt\bin\Debug\net8.0\Graphics.exe
+C:\Users\niko1\Desktop\Grafik projekt\bin\Debug\net8.0\shader.frag
+C:\Users\niko1\Desktop\Grafik projekt\bin\Debug\net8.0\Shader.vert
+C:\Users\niko1\Desktop\Grafik projekt\bin\Debug\net8.0\shaderLight.frag
+C:\Users\niko1\Desktop\Grafik projekt\bin\Debug\net8.0\ShaderLight.vert
+C:\Users\niko1\Desktop\Grafik projekt\bin\Debug\net8.0\Textures\container.jpg
+C:\Users\niko1\Desktop\Grafik projekt\bin\Debug\net8.0\Graphics.deps.json
+C:\Users\niko1\Desktop\Grafik projekt\bin\Debug\net8.0\Graphics.runtimeconfig.json
+C:\Users\niko1\Desktop\Grafik projekt\bin\Debug\net8.0\Graphics.dll
+C:\Users\niko1\Desktop\Grafik projekt\bin\Debug\net8.0\Graphics.pdb
+C:\Users\niko1\Desktop\Grafik projekt\bin\Debug\net8.0\ImGui.NET.dll
+C:\Users\niko1\Desktop\Grafik projekt\bin\Debug\net8.0\OpenTK.Audio.OpenAL.dll
+C:\Users\niko1\Desktop\Grafik projekt\bin\Debug\net8.0\OpenTK.Compute.dll
+C:\Users\niko1\Desktop\Grafik projekt\bin\Debug\net8.0\OpenTK.Core.dll
+C:\Users\niko1\Desktop\Grafik projekt\bin\Debug\net8.0\OpenTK.Graphics.dll
+C:\Users\niko1\Desktop\Grafik projekt\bin\Debug\net8.0\OpenTK.Input.dll
+C:\Users\niko1\Desktop\Grafik projekt\bin\Debug\net8.0\OpenTK.Mathematics.dll
+C:\Users\niko1\Desktop\Grafik projekt\bin\Debug\net8.0\OpenTK.Windowing.Common.dll
+C:\Users\niko1\Desktop\Grafik projekt\bin\Debug\net8.0\OpenTK.Windowing.Desktop.dll
+C:\Users\niko1\Desktop\Grafik projekt\bin\Debug\net8.0\OpenTK.Windowing.GraphicsLibraryFramework.dll
+C:\Users\niko1\Desktop\Grafik projekt\bin\Debug\net8.0\StbImageSharp.dll
+C:\Users\niko1\Desktop\Grafik projekt\bin\Debug\net8.0\runtimes\linux-x64\native\libcimgui.so
+C:\Users\niko1\Desktop\Grafik projekt\bin\Debug\net8.0\runtimes\osx\native\libcimgui.dylib
+C:\Users\niko1\Desktop\Grafik projekt\bin\Debug\net8.0\runtimes\win-arm64\native\cimgui.dll
+C:\Users\niko1\Desktop\Grafik projekt\bin\Debug\net8.0\runtimes\win-x64\native\cimgui.dll
+C:\Users\niko1\Desktop\Grafik projekt\bin\Debug\net8.0\runtimes\win-x86\native\cimgui.dll
+C:\Users\niko1\Desktop\Grafik projekt\bin\Debug\net8.0\runtimes\linux-x64\native\libglfw.so.3
+C:\Users\niko1\Desktop\Grafik projekt\bin\Debug\net8.0\runtimes\osx-arm64\native\libglfw.3.dylib
+C:\Users\niko1\Desktop\Grafik projekt\bin\Debug\net8.0\runtimes\osx-x64\native\libglfw.3.dylib
+C:\Users\niko1\Desktop\Grafik projekt\bin\Debug\net8.0\runtimes\win-x64\native\glfw3.dll
+C:\Users\niko1\Desktop\Grafik projekt\bin\Debug\net8.0\runtimes\win-x86\native\glfw3.dll
+C:\Users\niko1\Desktop\Grafik projekt\obj\Debug\net8.0\Graphics.csproj.AssemblyReference.cache
+C:\Users\niko1\Desktop\Grafik projekt\obj\Debug\net8.0\Graphics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\niko1\Desktop\Grafik projekt\obj\Debug\net8.0\Graphics.AssemblyInfoInputs.cache
+C:\Users\niko1\Desktop\Grafik projekt\obj\Debug\net8.0\Graphics.AssemblyInfo.cs
+C:\Users\niko1\Desktop\Grafik projekt\obj\Debug\net8.0\Graphics.csproj.CoreCompileInputs.cache
+C:\Users\niko1\Desktop\Grafik projekt\obj\Debug\net8.0\Graphics.csproj.Up2Date
+C:\Users\niko1\Desktop\Grafik projekt\obj\Debug\net8.0\Graphics.dll
+C:\Users\niko1\Desktop\Grafik projekt\obj\Debug\net8.0\refint\Graphics.dll
+C:\Users\niko1\Desktop\Grafik projekt\obj\Debug\net8.0\Graphics.pdb
+C:\Users\niko1\Desktop\Grafik projekt\obj\Debug\net8.0\Graphics.genruntimeconfig.cache
+C:\Users\niko1\Desktop\Grafik projekt\obj\Debug\net8.0\ref\Graphics.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\obj\Debug\net8.0\Graphics.csproj.AssemblyReference.cache
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\obj\Debug\net8.0\Graphics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\obj\Debug\net8.0\Graphics.AssemblyInfoInputs.cache
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\obj\Debug\net8.0\Graphics.AssemblyInfo.cs
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\obj\Debug\net8.0\Graphics.csproj.CoreCompileInputs.cache
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\obj\Debug\net8.0\Graphics.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\obj\Debug\net8.0\refint\Graphics.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\obj\Debug\net8.0\Graphics.pdb
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\Graphics.exe
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\shader.frag
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\Shader.vert
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\shaderLight.frag
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\ShaderLight.vert
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\Graphics.deps.json
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\Graphics.runtimeconfig.json
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\Graphics.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\Graphics.pdb
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\ImGui.NET.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\OpenTK.Audio.OpenAL.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\OpenTK.Compute.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\OpenTK.Core.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\OpenTK.Graphics.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\OpenTK.Input.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\OpenTK.Mathematics.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\OpenTK.Windowing.Common.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\OpenTK.Windowing.Desktop.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\OpenTK.Windowing.GraphicsLibraryFramework.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\StbImageSharp.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\runtimes\linux-x64\native\libcimgui.so
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\runtimes\osx\native\libcimgui.dylib
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\runtimes\win-arm64\native\cimgui.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\runtimes\win-x64\native\cimgui.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\runtimes\win-x86\native\cimgui.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\runtimes\linux-x64\native\libglfw.so.3
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\runtimes\osx-arm64\native\libglfw.3.dylib
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\runtimes\osx-x64\native\libglfw.3.dylib
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\runtimes\win-x64\native\glfw3.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\runtimes\win-x86\native\glfw3.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\obj\Debug\net8.0\Graphics.csproj.Up2Date
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\obj\Debug\net8.0\Graphics.genruntimeconfig.cache
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\obj\Debug\net8.0\ref\Graphics.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\Textures\container.tga
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\skybox.frag
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\skybox.vert
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\skybox\back.tga
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\skybox\bottom.tga
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\skybox\front.tga
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\skybox\left.tga
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\skybox\right.tga
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\skybox\top.tga
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\Textures\grass.tga
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\normal.frag
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\normal.geom
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\normal.vert
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\wireframe.frag
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\wireframe.geom
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\wireframe.vert
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\grass.frag
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\grass.geom
+C:\Users\niko1\Desktop\skole\Grafik\Grafik projekt\bin\Debug\net8.0\grass.vert
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\obj\Debug\net8.0\Graphics.csproj.AssemblyReference.cache
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\obj\Debug\net8.0\Graphics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\obj\Debug\net8.0\Graphics.AssemblyInfoInputs.cache
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\obj\Debug\net8.0\Graphics.AssemblyInfo.cs
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\obj\Debug\net8.0\Graphics.csproj.CoreCompileInputs.cache
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\obj\Debug\net8.0\Graphics.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\obj\Debug\net8.0\refint\Graphics.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\obj\Debug\net8.0\Graphics.pdb
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\Graphics.exe
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\skybox\back.tga
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\skybox\bottom.tga
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\skybox\front.tga
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\skybox\left.tga
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\skybox\right.tga
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\skybox\top.tga
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\Textures\container.tga
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\Textures\grass.tga
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\Graphics.deps.json
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\Graphics.runtimeconfig.json
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\Graphics.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\Graphics.pdb
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\ImGui.NET.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\OpenTK.Audio.OpenAL.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\OpenTK.Compute.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\OpenTK.Core.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\OpenTK.Graphics.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\OpenTK.Input.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\OpenTK.Mathematics.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\OpenTK.Windowing.Common.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\OpenTK.Windowing.Desktop.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\OpenTK.Windowing.GraphicsLibraryFramework.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\StbImageSharp.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\runtimes\linux-x64\native\libcimgui.so
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\runtimes\osx\native\libcimgui.dylib
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\runtimes\win-arm64\native\cimgui.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\runtimes\win-x64\native\cimgui.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\runtimes\win-x86\native\cimgui.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\runtimes\linux-x64\native\libglfw.so.3
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\runtimes\osx-arm64\native\libglfw.3.dylib
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\runtimes\osx-x64\native\libglfw.3.dylib
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\runtimes\win-x64\native\glfw3.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\bin\Debug\net8.0\runtimes\win-x86\native\glfw3.dll
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\obj\Debug\net8.0\Graphics.csproj.Up2Date
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\obj\Debug\net8.0\Graphics.genruntimeconfig.cache
+C:\Users\niko1\Desktop\skole\Grafik\Grafik ny\obj\Debug\net8.0\ref\Graphics.dll
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\Graphics.exe
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\skybox\back.tga
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\skybox\bottom.tga
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\skybox\front.tga
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\skybox\left.tga
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\skybox\right.tga
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\skybox\top.tga
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\Textures\container.tga
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\Textures\grass.tga
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\Graphics.deps.json
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\Graphics.runtimeconfig.json
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\Graphics.dll
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\Graphics.pdb
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\ImGui.NET.dll
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\OpenTK.Audio.OpenAL.dll
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\OpenTK.Compute.dll
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\OpenTK.Core.dll
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\OpenTK.Graphics.dll
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\OpenTK.Input.dll
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\OpenTK.Mathematics.dll
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\OpenTK.Windowing.Common.dll
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\OpenTK.Windowing.Desktop.dll
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\OpenTK.Windowing.GraphicsLibraryFramework.dll
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\StbImageSharp.dll
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\runtimes\linux-x64\native\libcimgui.so
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\runtimes\osx\native\libcimgui.dylib
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\runtimes\win-arm64\native\cimgui.dll
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\runtimes\win-x64\native\cimgui.dll
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\runtimes\win-x86\native\cimgui.dll
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\runtimes\linux-x64\native\libglfw.so.3
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\runtimes\osx-arm64\native\libglfw.3.dylib
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\runtimes\osx-x64\native\libglfw.3.dylib
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\runtimes\win-x64\native\glfw3.dll
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\bin\Debug\net8.0\runtimes\win-x86\native\glfw3.dll
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\obj\Debug\net8.0\Graphics.csproj.AssemblyReference.cache
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\obj\Debug\net8.0\Graphics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\obj\Debug\net8.0\Graphics.AssemblyInfoInputs.cache
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\obj\Debug\net8.0\Graphics.AssemblyInfo.cs
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\obj\Debug\net8.0\Graphics.csproj.CoreCompileInputs.cache
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\obj\Debug\net8.0\Graphics.csproj.Up2Date
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\obj\Debug\net8.0\Graphics.dll
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\obj\Debug\net8.0\refint\Graphics.dll
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\obj\Debug\net8.0\Graphics.pdb
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\obj\Debug\net8.0\Graphics.genruntimeconfig.cache
+C:\Users\niko1\Desktop\skole\Grafik\ECS-Engine\obj\Debug\net8.0\ref\Graphics.dll
