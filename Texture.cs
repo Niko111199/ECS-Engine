@@ -18,16 +18,16 @@ namespace Graphics
         public int height;
         private int colorChannels;
 
-        public Texture(string path, ushort unit = 0)
+        public Texture(string path, TextureType unit = TextureType.Albedo)
         {
             handle = GL.GenTexture();
-            boundUnit = TextureUnit.Texture0 + unit;
+            boundUnit = TextureUnit.Texture0 + (int)unit;
             use();
 
             if (string.IsNullOrEmpty(path))
             {
                 byte[] pixel = new byte[] { 255, 255, 255, 0 };
-                Create(1, 1, true, pixel, unit);
+                Create(1, 1, true, pixel, (int)unit);
                 GL.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureMinFilter, (int)TextureMinFilter.Linear);
                 GL.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureMagFilter, (int)TextureMagFilter.Linear);
                 return;
@@ -36,7 +36,7 @@ namespace Graphics
             string ext = Path.GetExtension(path).ToLower();
             if (ext == ".tga")
             {
-                LoadTGA(path, unit);
+                LoadTGA(path, (ushort)unit);
             }
 
             ApplyWrapping();
@@ -269,13 +269,14 @@ namespace Graphics
         ClampToBorder
     }
 
-    public enum TextureType
+    public enum TextureType : ushort
     {
         Albedo,
+        Specular,
         Normal,
         Light,
-        Specular,
-        Height
+        Projector,
+        Shadow
     }
 
 }

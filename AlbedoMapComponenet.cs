@@ -34,7 +34,7 @@ namespace Graphics
             LoadTexture();
         }
 
-        public void LoadTexture(string path = "", ushort unit = 0)
+        public void LoadTexture(string path = "", TextureType unit = TextureType.Albedo)
         {
             Texture?.Dispose();
             Path = path;
@@ -46,7 +46,7 @@ namespace Graphics
             else
             {
                 Texture = new Texture("", unit);
-                Texture.GenerateCheckeredTexture(unit);
+                Texture.GenerateCheckeredTexture((ushort)unit);
             }
             Bind();
         }

@@ -85,5 +85,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+	<ItemGroup>
+		<Compile Include="Scripts\**\*.cs" />
+	</ItemGroup>
 
 </Project>

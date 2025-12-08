@@ -1,12 +1,138 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\niko1\\Desktop\\skole\\Grafik\\ECS-Engine\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB1CFB3-A136-49A4-91AF-550C2A302329}|Graphics.csproj|c:\\users\\niko1\\desktop\\skole\\grafik\\ecs-engine\\postprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB1CFB3-A136-49A4-91AF-550C2A302329}|Graphics.csproj|solutionrelative:postprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB1CFB3-A136-49A4-91AF-550C2A302329}|Graphics.csproj|c:\\users\\niko1\\desktop\\skole\\grafik\\ecs-engine\\lightcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB1CFB3-A136-49A4-91AF-550C2A302329}|Graphics.csproj|solutionrelative:lightcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB1CFB3-A136-49A4-91AF-550C2A302329}|Graphics.csproj|c:\\users\\niko1\\desktop\\skole\\grafik\\ecs-engine\\framebuffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB1CFB3-A136-49A4-91AF-550C2A302329}|Graphics.csproj|solutionrelative:framebuffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB1CFB3-A136-49A4-91AF-550C2A302329}|Graphics.csproj|c:\\users\\niko1\\desktop\\skole\\grafik\\ecs-engine\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB1CFB3-A136-49A4-91AF-550C2A302329}|Graphics.csproj|solutionrelative:scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB1CFB3-A136-49A4-91AF-550C2A302329}|Graphics.csproj|c:\\users\\niko1\\desktop\\skole\\grafik\\ecs-engine\\shadowmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB1CFB3-A136-49A4-91AF-550C2A302329}|Graphics.csproj|solutionrelative:shadowmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB1CFB3-A136-49A4-91AF-550C2A302329}|Graphics.csproj|c:\\users\\niko1\\desktop\\skole\\grafik\\ecs-engine\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB1CFB3-A136-49A4-91AF-550C2A302329}|Graphics.csproj|solutionrelative:entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB1CFB3-A136-49A4-91AF-550C2A302329}|Graphics.csproj|c:\\users\\niko1\\desktop\\skole\\grafik\\ecs-engine\\animatecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB1CFB3-A136-49A4-91AF-550C2A302329}|Graphics.csproj|solutionrelative:animatecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Scene.cs",
+              "DocumentMoniker": "C:\\Users\\niko1\\Desktop\\skole\\Grafik\\ECS-Engine\\Scene.cs",
+              "RelativeDocumentMoniker": "Scene.cs",
+              "ToolTip": "C:\\Users\\niko1\\Desktop\\skole\\Grafik\\ECS-Engine\\Scene.cs",
+              "RelativeToolTip": "Scene.cs",
+              "ViewState": "AgIAANgAAAAAAAAAAAAcwDAAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T19:27:55.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AnimateComponent.cs",
+              "DocumentMoniker": "C:\\Users\\niko1\\Desktop\\skole\\Grafik\\ECS-Engine\\AnimateComponent.cs",
+              "RelativeDocumentMoniker": "AnimateComponent.cs",
+              "ToolTip": "C:\\Users\\niko1\\Desktop\\skole\\Grafik\\ECS-Engine\\AnimateComponent.cs",
+              "RelativeToolTip": "AnimateComponent.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T09:21:43.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PostProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\niko1\\Desktop\\skole\\Grafik\\ECS-Engine\\PostProcessor.cs",
+              "RelativeDocumentMoniker": "PostProcessor.cs",
+              "ToolTip": "C:\\Users\\niko1\\Desktop\\skole\\Grafik\\ECS-Engine\\PostProcessor.cs",
+              "RelativeToolTip": "PostProcessor.cs",
+              "ViewState": "AgIAANAAAAAAAAAAAAAwwAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T09:44:20.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\niko1\\Desktop\\skole\\Grafik\\ECS-Engine\\Entity.cs",
+              "RelativeDocumentMoniker": "Entity.cs",
+              "ToolTip": "C:\\Users\\niko1\\Desktop\\skole\\Grafik\\ECS-Engine\\Entity.cs",
+              "RelativeToolTip": "Entity.cs",
+              "ViewState": "AgIAAGsBAAAAAAAAAAAuwM4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T19:06:50.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShadowMap.cs",
+              "DocumentMoniker": "C:\\Users\\niko1\\Desktop\\skole\\Grafik\\ECS-Engine\\ShadowMap.cs",
+              "RelativeDocumentMoniker": "ShadowMap.cs",
+              "ToolTip": "C:\\Users\\niko1\\Desktop\\skole\\Grafik\\ECS-Engine\\ShadowMap.cs",
+              "RelativeToolTip": "ShadowMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T09:44:01.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrameBuffer.cs",
+              "DocumentMoniker": "C:\\Users\\niko1\\Desktop\\skole\\Grafik\\ECS-Engine\\FrameBuffer.cs",
+              "RelativeDocumentMoniker": "FrameBuffer.cs",
+              "ToolTip": "C:\\Users\\niko1\\Desktop\\skole\\Grafik\\ECS-Engine\\FrameBuffer.cs",
+              "RelativeToolTip": "FrameBuffer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T09:44:29.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LightComponent.cs",
+              "DocumentMoniker": "C:\\Users\\niko1\\Desktop\\skole\\Grafik\\ECS-Engine\\LightComponent.cs",
+              "RelativeDocumentMoniker": "LightComponent.cs",
+              "ToolTip": "C:\\Users\\niko1\\Desktop\\skole\\Grafik\\ECS-Engine\\LightComponent.cs",
+              "RelativeToolTip": "LightComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T09:45:00.931Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
         {
           "DockedWidth": 200,
           "SelectedChildIndex": -1,

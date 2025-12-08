@@ -31,7 +31,7 @@ namespace Graphics
             LoadTexture();
         }
 
-        public void LoadTexture(string path = "", ushort unit = 2)
+        public void LoadTexture(string path = "", TextureType unit = TextureType.Normal)
         {
             Texture?.Dispose();
             Path = path;

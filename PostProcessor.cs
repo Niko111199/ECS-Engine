@@ -14,6 +14,7 @@ namespace Graphics
         public float brightness = 1.2f;
         public float contrast = 0.5f;
         public float shiftAmount = 1.0f;
+        public float pixelSize = 8.0f;
 
         public PostProcessor(int width, int height, Scene owner)
         {
@@ -57,6 +58,7 @@ namespace Graphics
             postShader.setFloat("brightness", brightness);
             postShader.setFloat("contrast", contrast);
             postShader.setFloat("shiftAmount", shiftAmount);
+            postShader.setFloat("pixelSize", pixelSize);
 
             GL.DrawArrays(PrimitiveType.Triangles, 0, 6);
         }
@@ -107,6 +109,7 @@ uniform vec2 screenSize;
 uniform float brightness;
 uniform float contrast;
 uniform float shiftAmount;
+uniform float pixelSize;
 ";
 
             string main = @"
@@ -184,6 +187,11 @@ void main()
                     main += "vec3 Result = vec3(gray * 0.8 + noise * 0.2) * vec3(0.1, 1.0, 0.1);";
                     break;
 
+                case PostProcessEffekt.pixelate:
+                    main += "vec2 pixelCoords = floor(TexCoords * screenSize / pixelSize) * pixelSize / screenSize;";
+                    main += "vec3 Result = texture(screenTexture, pixelCoords).rgb;";
+                    break;
+
                 default:
                     main += "vec3 Result = color;";
                     break;
@@ -245,5 +253,6 @@ public enum PostProcessEffekt
     chromaticAberration,
     scanlines,
     glitch,
-    nightVision
+    nightVision,
+    pixelate
 }

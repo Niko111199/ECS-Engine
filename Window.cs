@@ -103,7 +103,6 @@ namespace Graphics
             }
         }
 
-
         public void addScene(Scene scene)
         {
             sceneNumber++;

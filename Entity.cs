@@ -221,12 +221,12 @@ void main()
         discard;
 ";
 
-            if (GetComponent<AlbedoMapComponenet>() != null)
+            if (useTexture && GetComponent<AlbedoMapComponenet>() != null)
                 main += "baseColor = texture(Albedomap, TexCoord) * color;\n";
 
             main += "vec3 norm = normalize(Normal);\n";
 
-            if (GetComponent<NormalMapComponent>() != null)
+            if (useTexture && GetComponent<NormalMapComponent>() != null)
             {
                 main += @"
     vec3 normalTex = texture(Normalmap, TexCoord).rgb;

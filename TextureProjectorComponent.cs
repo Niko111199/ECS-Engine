@@ -17,7 +17,7 @@ namespace Graphics
             this.owner = owner;
         }
 
-        public void LoadTexture(string path, ushort unit = 4)
+        public void LoadTexture(string path, TextureType unit = TextureType.Projector)
         {
             Texture?.Dispose();
             Path = path;

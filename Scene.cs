@@ -146,7 +146,7 @@ namespace Graphics
                 if (texComp != null)
                 {
                     texComp.Bind();
-                    entity.shader.setInt("Albedomap", 0);
+                    entity.shader.setInt("Albedomap", (int)TextureType.Albedo);
                     entity.shader.setVec2("uvScale", new Vector2(texComp.UVScale.X, texComp.UVScale.Y));
                 }
 
@@ -154,21 +154,21 @@ namespace Graphics
                 if (specComp != null)
                 {
                     specComp.Bind();
-                    entity.shader.setInt("Specularmap", 1);
+                    entity.shader.setInt("Specularmap", (int)TextureType.Specular);
                 }
 
                 var normalComp = entity.GetComponent<NormalMapComponent>();
                 if (normalComp != null)
                 {
                     normalComp.Bind();
-                    entity.shader.setInt("Normalmap", 2);
+                    entity.shader.setInt("Normalmap", (int)TextureType.Normal);
                 }
 
                 var lightmapComp = entity.GetComponent<LightMapComponent>();
                 if (lightmapComp != null)
                 {
                     lightmapComp.Bind();
-                    entity.shader.setInt("Lightmap", 3);
+                    entity.shader.setInt("Lightmap", (int)TextureType.Light);
                 }
 
                 var mesh = entity.GetComponent<MeshComponent>();
@@ -207,7 +207,7 @@ namespace Graphics
                     entity.shader.setFloat("ambientLight", ambientLight);
 
                     entity.shader.setMat4("lightSpaceMatrix", lightSpaceMatrix);
-                    entity.shader.setInt("shadowMap", 5);
+                    entity.shader.setInt("shadowMap", (int)TextureType.Shadow);
                     entity.shader.setFloat("bias", shadowMap.bias);
 
                     if (lightComp.Type == LightType.Point)
@@ -227,7 +227,7 @@ namespace Graphics
                 {
                     var projectorComp = projectorEntity.GetComponent<TextureProjectorComponent>();
                     projectorComp.Bind();
-                    entity.shader.setInt("ProjectorTex", 4);
+                    entity.shader.setInt("ProjectorTex", (int)TextureType.Projector);
                     entity.shader.setMat4("projectorView", projectorComp.GetViewMatrix());
                     entity.shader.setMat4("projectorProjection", projectorComp.GetProjectionMatrix());
                 }

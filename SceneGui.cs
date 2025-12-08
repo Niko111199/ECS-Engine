@@ -253,6 +253,11 @@ namespace Graphics
                 ImGui.DragFloat("Change contrast", ref owner.postProcessor.contrast,0.1f);
             }
 
+            if (postProcessEffekt == PostProcessEffekt.pixelate)
+            {
+                ImGui.DragFloat("pixelsize", ref owner.postProcessor.pixelSize, 0.1f, 0.1f, float.MaxValue);
+            }
+
             if ((postProcessEffekt == PostProcessEffekt.chromaticAberration))
             {
                 ImGui.DragFloat("shift amount", ref owner.postProcessor.shiftAmount);
